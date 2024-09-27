@@ -1,0 +1,40 @@
+
+body{
+    background: black ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 100px;
+   
+}
+button{
+box-shadow: 0 0 5px cyan,
+    0 0 25px cyan;
+    height: 75px ;
+    width: 300px;
+    margin: 30px 15px 15px 75px;
+    border-radius: 45%;
+    
+
+}
+button:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan, 
+    0 0 100px cyan, 0 0 200px cyan;
+}
+button{
+    background-color: black;
+    color: rgb(9, 247, 247);
+}
+a{
+    color: rgb(175, 175, 248);
+    text-decoration: none;
+}
+a:hover{
+    color:cyan;
+    font-size: large;
+    font-weight: bold;
+    font-style: oblique;
+    text-transform: uppercase;
+}
