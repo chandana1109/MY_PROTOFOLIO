@@ -1,0 +1,109 @@
+body{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style: 1.7 em; 
+    background: linear-gradient(to top left,rgb(136, 237, 237) 0%,black 50%) fixed;
+     color: mediumturquoise;
+    
+}
+.chan{
+    margin-left: 630px;
+    border-radius: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow:0px 15px 15px 15px black ;
+}
+footer{
+    background-image:repeating-linear-gradient(rgba(0, 0, 0, 0.468), rgba(0, 255, 255, 0.351),rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.295),black,rgba(24, 49, 49, 0.322),rgba(48, 93, 93, 0.416));
+    border-radius: 50px;
+    height: 400px;
+    margin: 20px;
+    border: 5px  groove rgba(60, 59, 59, 0.27);
+
+}
+footer  img{
+    width: 50px;
+    height: 50px;
+    
+    border-radius: 25px;
+    margin-top: 20px;
+    box-shadow:0px 0px 100px 20px black ;
+}
+.clearfix::after{
+content:" ";
+clear: both;
+display: table;
+}
+img:hover{
+    box-shadow: 0 0 25px rgb(159, 239, 239);
+}
+footer ul li{
+    list-style-type: none;
+    margin-left: 180px;
+    display: block;
+    
+}
+footer p{
+    margin-left: 200px;
+    margin-top: 40px;
+    font-size: large;
+    font-weight: 600;
+}
+.contact{
+    float: right;
+    margin-right: 250px;
+}
+.contact h3{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.contact img{
+    margin-bottom:30px;
+    display: block;
+    margin-left: 10px;
+}
+
+ .reserved{
+    margin-left: 500px;
+    margin-top: 40px;
+    font-weight: 600;
+    word-spacing:0.5cap;
+    color: black;
+ }
+ .quick{
+    float: right;
+    margin-right: 300px;
+ }
+ .quick h3{
+    margin-top: 40px;
+ }
+ .quick a{
+    display: block;
+    margin: 30px;
+    color:rgb(22, 213, 213) ;
+    text-decoration: none;
+    font-weight:600;
+ }
+
+ h1{
+    text-align: center;
+ }
+ header p{
+    text-align: center;
+ }
+ .previous{
+    color: aqua;
+    margin-left: 75px;
+    text-decoration: none;
+    font-size:x-large ;
+    font-style: italic; 
+}
+.next{
+    float: right;
+    margin-right: 150px;
+    color: black;
+    font-size: x-large;
+    font-style: italic; 
+    text-decoration: none;
+}

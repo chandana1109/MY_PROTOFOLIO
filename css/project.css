@@ -1,0 +1,76 @@
+body{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style: 1.7 em; 
+    background: linear-gradient(to top left,rgb(136, 237, 237) 0%,black 50%) fixed;
+    color: mediumturquoise;
+    
+}
+
+.projects h1{
+    text-align: center;
+    margin-bottom: 75px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xxx-large;
+}
+
+.projects a{
+    color: rgb(121, 184, 238);
+    
+    margin: 75px;
+    font-size: x-large;
+    text-decoration: none;
+    
+}
+.projects a:hover{
+    color: rgb(236, 89, 252);
+    text-decoration: underline;
+}
+.projects p{
+    color: rgb(223, 198, 247);
+    text-align: left;
+    width: 700px;
+    height: 300px;
+    letter-spacing: 0.3px;
+    word-spacing:5px ;
+    font-style:italic ;
+    margin-left: 75px;
+}
+.projects p:hover{
+    color: aqua;
+}
+
+.right{
+    float: right;
+    width: 340px;
+    height: 300px;
+    margin-right: 250px;
+    border-radius: 25px;
+    box-shadow:15px 20px 20px 20px black ;
+}
+.right:hover{
+    box-shadow: 0 0 25px rgb(159, 239, 239);
+}
+.clearfix::before{
+    content:" ";
+    clear: both;
+    display: table;
+    }
+    footer{
+        font-size: x-large;
+        font-style: italic; 
+        margin-bottom: 75px;
+    }
+    .previous{
+        color: aqua;
+        margin-left: 75px;
+        text-decoration: none;
+    }
+    .next{
+        float: right;
+        margin-right: 150px;
+        color: black;
+        font-size: x-large;
+        font-style: italic; 
+        text-decoration: none;
+    }
